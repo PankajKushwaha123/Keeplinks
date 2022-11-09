@@ -1,0 +1,7 @@
+Options +FollowSymLinks
+RewriteEngine On
+RewriteRule ^v/(.*)$ /view.php?id=$1
+RewriteRule ^rem/(.*)$ /remove.php?id=$1
+
+
+
